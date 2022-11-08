@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ks from "./source/ks.png";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="header">
+        <img id="logo-ks" src={ks} alt="logo ks" />
+        <nav className="navbar">
+          <ul className="list-nav">
+            <li>Inicio</li>
+            <li>Nosotros</li>
+            <li>Servicios</li>
+            <li>Cotacto</li>
+          </ul>
+        </nav>
       </header>
+      <main></main>
+      <footer></footer>
     </div>
   );
 }
