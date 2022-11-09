@@ -1,5 +1,8 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
 .header {
-  background-color: antiquewhite;
   display: flex;
   justify-content: space-between;
 }
@@ -8,20 +11,65 @@
   height: 150px;
   flex: 1;
 }
-
 .navbar {
   position: sticky;
   top: 0;
-  background-color: aquamarine;
   flex: 7;
 }
 .list-nav {
   display: flex;
   list-style: none;
-  justify-content: center;
-  line-height: 6.5em;
+  line-height: 6.5rem;
+  align-items: center;
 }
-li {
-  color: white;
-  font-size: 18px;
+.list {
+  color: #99c3b7;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: flex;
+  width: 48rem;
+  justify-content: space-around;
+}
+.phone-contact {
+  flex: 2;
+  display: flex;
+
+  justify-content: center;
+  line-height: 7.5rem;
+  color: #99c3b7;
+  font-size: 1.3rem;
+}
+.container-main {
+  flex: 2;
+}
+#img-bussines {
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
+  position: relative;
+}
+#text-position1 {
+  color: #fff;
+  font-size: 4rem;
+  position: absolute;
+  top: 140px;
+  left: 100px;
+}
+#text-position2 {
+  color: #fff;
+  font-size: 4rem;
+  position: absolute;
+  top: 240px;
+  left: 100px;
+}
+#text-position3 {
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  position: absolute;
+  top: 330px;
+  left: 100px;
+}
+.container-footer {
+  flex: 1;
+  background-color: blueviolet;
 }
