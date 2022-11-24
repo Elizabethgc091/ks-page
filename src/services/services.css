@@ -1,0 +1,10 @@
+.box-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-serv {
+  background-color: aquamarine;
+  height: 100px;
+  margin: 18px;
+}
